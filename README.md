@@ -1,6 +1,9 @@
 Problem
 
- public double getDiscount(int cartTotal) {
+
+ 
+ Public double getDiscount(int cartTotal) {
+ 
         double discount = 0;
         if (cartTotal > 100 && cartTotal < 200) {
             discount = cartTotal * 0.10;
